@@ -1,0 +1,294 @@
+
+.info{
+    color: white;
+    margin-top: 5px;
+    line-height: 5px;
+    margin-bottom: 0.2em;
+}
+
+.container-newsletter{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #83BDA8;
+    background-image: url(../IMG/FondoNewsletter.png);
+    max-width: 120em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2em;
+    padding-right: 2em;
+    position: relative;
+
+   box-sizing: border-box;
+    
+}
+
+.email{
+    background-color: #FFC5BB;
+    border-style: none;
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    color: #924e6f;
+}
+
+.provincia{
+    background-color: #437A65;
+    border-style: none;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    color: white;
+
+}
+
+.button{
+    background-color: white;
+    border-style: none;
+    height: 40px;
+    width: 100px;
+    color: #437A65;
+}
+
+.Suscribe{
+    color: white;
+}
+
+.Recibi{
+  color: white;
+}
+
+.quienes{
+    height: 500px;
+    background-color: #FFC5BB;
+}
+
+.background-color{
+    background-color: #E8E9DD;
+  }
+  
+  nav{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .background-navbar-color{
+    background-color: #ffffff;
+  }
+  
+  .fxd-posicion{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  
+  .link-hover:hover{
+    opacity: 0.5;
+  
+  }
+  
+  .btn-color{
+    background-color: #5FA086; 
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;    
+  }
+  
+  footer{
+    width: 100%;
+    background: #5A967B;
+    color: white;       
+  }
+  
+  .container-footer-oll{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;    
+  }
+  
+  .body-footer{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;  
+  }
+  
+  .columna-1{
+    max-width: 400px;
+  }
+  
+  .columna-1 h2{
+    font-size: 22px;
+    font-weight: bold;
+    color: #1D382A;     
+  }
+  
+  .columna-1 p{
+    font-size: 14px;
+    margin-top: 20px;
+    color: white
+  }
+    
+  .columna-2{
+    max-width: 400px;     
+  }
+  
+  .columna-2 h2{
+    font-size: 22px;
+    font-weight: bold;
+    color: #1D382A; 
+  }
+  
+  .row-footer{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 20px; 
+  }
+  
+  .link{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .row-footer img{
+    width: 36px;
+    height: 36px;
+  }
+  
+  .row-footer label{
+    margin-top: 8px;
+    margin-left: 10px; 
+  }
+  
+  .comlumna-3{
+    max-width: 400px;    
+  }
+  
+  .columna-3 h2{
+    font-size: 22px;
+    font-weight: bold;
+    color: #1D382A;    
+  }
+  
+  .row-2{
+    margin-top: 20px;
+    display: flex;
+  }
+  
+  .row-2 img{
+    width: 36px;
+    height: 36px;    
+  }
+  
+  .row-2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;       
+  }
+  
+  .container-footer{
+    width: 100%;
+    background: #101010;  
+  }
+  
+  .footer{
+    max-width: 1200px;
+    margin: auto; 
+    padding: 15px;
+    display: flex;
+    justify-content: space-between; 
+  }
+  
+  .copyright{
+    color: #C7C7C7
+  }
+  
+  .copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .information a{
+    color: #C7C7C7;
+    text-decoration: none;
+  }
+  
+  @media screen and (max-width: 1100px) {
+  
+  
+    .body-footer{
+      flex-wrap: wrap;  
+    }
+  
+    .columna-1{
+      max-width: 100%;
+    }
+  
+    .columna-2{
+      margin-top: 40px;
+    }
+  
+    .columna-3{
+      margin-top: 40px;
+    }
+  }
+
+  .row{
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+  }
+
+  .bckg-tips{
+    background-color: #fff6f2;
+  }
+
+  .background-emprendimientos{
+    background-color: #d8d6c9;
+  }
+
+  @media screen and (max-width: 415px) {
+    
+    .email{
+      width: 154px;
+    }
+
+    .provincia{
+      width: 100px;
+    }
+  
+    .button{
+      width: 50px;
+    }
+    
+    
+  }
+
+  .IMG-temas-height{
+    height: 340px;
+  }
+
+  .h2titulosnotas{
+    color: #437A65;
+    font-weight: bold;
+  }
+
+  .Tips{
+    color: #c46352
+  }
+
+  .TituloTips{
+    color: #437A65;
+
+  }
+
+  .TituloQuienesSomos{
+    color: #337175;
+  }
